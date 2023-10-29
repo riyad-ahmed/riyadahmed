@@ -1,10 +1,17 @@
-import Demo from "./Demo";
+
+import Hero from "./components/Hero";
+import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div>
-      <Demo/>
-    </div>
+    <>
+      <Header/>
+      <Hero/>
+      <ContactForm/>
+      <Footer/>
+    </>
   );
 };
 
