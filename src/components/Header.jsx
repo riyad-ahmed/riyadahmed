@@ -5,7 +5,7 @@ function Header() {
       <nav className="border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center">
-          <h1 className="text-5xl font-bold text-white">Devloper <span className="text-[#a5161d]">R</span></h1>
+          <h1 className="text-6xl font-bold text-white">Devloper <span className="text-[#ff004f]">R.</span></h1>
           </a>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
