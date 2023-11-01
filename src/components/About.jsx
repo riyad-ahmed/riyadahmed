@@ -17,10 +17,10 @@ function About() {
                   Skills
                 </Tab>
                 <Tab className="px-[10px] py-[5px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white">
-                  Tab 2
+                Experience
                 </Tab>
                 <Tab className="px-[10px] py-[5px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white">
-                  Tab 2
+                Education
                 </Tab>
               </TabList>
               <TabPanel className="mt-6">
@@ -31,9 +31,11 @@ function About() {
                 <p className="text-[#b54769] text-sm">Tools:</p>
                 <h2 className="text-[#ababab]">Git, GitHub</h2>
               </TabPanel>
-              <TabPanel>
+              <TabPanel className="mt-6">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate blanditiis modi, aspernatur incidunt animi nam corporis temporibus quia consectetur consequatur doloribus velit vel aliquam totam cumque magni sunt officia tenetur!
               </TabPanel>
-              <TabPanel>
+              <TabPanel className="mt-6">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti vel nisi molestiae est quisquam optio saepe neque. Quibusdam maiores suscipit, optio obcaecati architecto perspiciatis nulla cum consequatur quas eos?
               </TabPanel>
             </Tabs>
           </div>
