@@ -1,8 +1,8 @@
-
+import Header from "./components/header";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Footer from "./components/Footer";
-import Header from "./components/header";
+import Services from "./components/Services";
+
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <Header/>
       <Hero/>
       <About/>
-      <Footer/>
+      <Services/>
     </>
   );
 };
