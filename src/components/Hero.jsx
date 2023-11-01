@@ -1,4 +1,8 @@
 import { BsFacebook } from 'react-icons/Bs';
+import { AiOutlineGithub } from 'react-icons/Ai';
+import { AiOutlineTwitter } from 'react-icons/Ai';
+import { AiFillInstagram } from 'react-icons/Ai';
+import { AiFillLinkedin } from 'react-icons/Ai';
 const hero = () => {
   return (
     <div className="container mx-auto text-center my-[190px]">
@@ -11,21 +15,23 @@ const hero = () => {
       <div className="my-[30px]">
         <div className="flex justify-center gap-4">
           <i>
-          <a href="#" className=''><BsFacebook color='#ababab' fontSize='50px'/></a>
+          <a href="#" className=''><BsFacebook color='#ababab' fontSize='40px'/></a>
           </i>
           <i>
-          <a href="#" className=''><BsFacebook color='#ababab' fontSize='50px'/></a>
+          <a href="#" className=''><AiOutlineTwitter color='#ababab' fontSize='40px'/></a>
           </i>
           <i>
-          <a href="#" className=''><BsFacebook color='#ababab' fontSize='50px'/></a>
+          <a href="#" className=''><AiFillInstagram color='#ababab' fontSize='40px'/></a>
           </i>
           <i>
-          <a href="#" className=''><BsFacebook color='#ababab' fontSize='50px'/></a>
+          <a href="#" className=''><AiFillLinkedin color='#ababab' fontSize='40px'/></a>
           </i>
         </div>
       </div>
       <div className="my-[30px]">
-        <button className="px-[20px] py-[10px] border-2 border-[#ff004f] rounded-md text-white font-bold text-lg hover:bg-[#ff004f] hover:text-white mr-2">GitHub</button>
+        <button className="relative px-[20px] py-[10px] border-2 border-[#ff004f] rounded-md text-white font-bold text-lg hover:bg-[#ff004f] hover:scale-[1.7] hover:text-white mr-2">
+          <AiOutlineGithub color='#ababab' fontSize='20px' position= 'absolute'/>
+          GitHub</button>
         <button className="px-[20px] py-[10px] border-2 border-[#ff004f] rounded-md text-white font-bold text-lg hover:bg-[#ff004f] hover:text-white ml-2">GitHub</button>
       </div>
     </div>
