@@ -15,7 +15,7 @@ const hero = () => {
       </h1>
       <p className="text-[#ababab] px-[302px] text-lg">I am an expert in HTML5, CSS3, JavaScript, SCSS, PSD to HTML, Figma to HTML with Responsive design, and Twitter Bootstrap. I have excellent development skills and I am proficient in Web Designing. I have incredible attention to detail and I enjoy new challenges.</p>
 
-      <div className="my-[30px]">
+      <div className="my-[30px] text-center">
         <div className="flex justify-center gap-4">
           <i>
           <a href="#" className=''><BsFacebook color='#ababab' fontSize='40px'/></a>

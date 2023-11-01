@@ -1,6 +1,6 @@
 const Portfolio = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-[10rem]">
+    <div className="max-w-screen-xl mx-auto my-[10rem]">
       <h1 className="text-[60px] text-center font-bold text-white">My <span className="text-[#ff004f]">Portfolio</span></h1>
       <div className="grid grid-cols-3 gap-12 mt-10">
         <div className="col-span-1 hover:translate-y-[-20px] duration-500 text-center">
