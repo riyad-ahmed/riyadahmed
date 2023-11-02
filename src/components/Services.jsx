@@ -6,7 +6,7 @@ import {FaBootstrap} from "react-icons/Fa";
 import {BiLogoTailwindCss} from "react-icons/Bi";
 const Services = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-[10rem]">
+    <div className="max-w-screen-xl mx-auto mt-[10rem]" id="services">
       <h1 className="text-[60px] text-center font-bold text-white">My <span className="text-[#ff004f]">Services</span></h1>
       <div className="grid grid-cols-3 gap-12 mt-10">
         <div className="col-span-1 hover:translate-y-[-20px] duration-500">

@@ -39,7 +39,7 @@ const Contact = () => {
           <button className="px-[50px] py-[14px] bg-[#ff004f] hover:bg-[#080808] hover:scale-[1.1] duration-500 border-2 border-[#ff004f] rounded-md hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] text-white mt-4">
             <span className='flex items-center'>
             <BsCloudArrowDownFill fontSize='25px'/>
-                <a href="#" className="ml-2 relative text-lg py-2 pl-3 pr-4 font-bold bg-transparent md:bg-transparent md:p-0" aria-current="page">Download CV</a>
+                <a href="/public/bio-Riyad.pdf" className="ml-2 relative text-lg py-2 pl-3 pr-4 font-bold bg-transparent md:bg-transparent md:p-0" aria-current="page" download >Download CV</a>
             </span>
             </button>
         </div>

@@ -66,7 +66,7 @@ const Portfolio = () => {
       </div>
         <div className="text-center mt-10">
         <button className="px-[50px] py-[14px] bg-[#080808] hover:scale-[1.1] duration-500 border-2 border-[#ff004f] rounded-md hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white mt-4">
-                <a href="#" className="relative text-lg py-2 pl-3 pr-4 font-bold bg-transparent md:bg-transparent md:p-0" aria-current="page">See more</a>
+                <a href="https://github.com/riyad-ahmed" className="relative text-lg py-2 pl-3 pr-4 font-bold bg-transparent md:bg-transparent md:p-0" aria-current="page">See more</a>
             </button>
         </div>
     </div>

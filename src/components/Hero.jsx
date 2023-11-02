@@ -18,7 +18,7 @@ const hero = () => {
       <div className="my-[30px] text-center">
         <div className="flex justify-center gap-4">
           <i>
-          <a href="#" className=''><BsFacebook color='#ababab' fontSize='40px'/></a>
+          <a href="#" className=''><BsFacebook color='#ababab' fontSize='40px' hover='bg[#ff004f]'/></a>
           </i>
           <i>
           <a href="#" className=''><AiOutlineTwitter color='#ababab' fontSize='40px'/></a>
@@ -32,12 +32,16 @@ const hero = () => {
         </div>
       </div>
       <div className="my-[30px]">
-        <button className="relative px-[20px] py-[10px] pl-8 border-2 border-[#ff004f] rounded-md text-white font-bold text-lg hover:bg-[#ff004f] hover:text-white mr-2">
+        <a href="https://github.com/riyad-ahmed">
+        <button className="relative px-[20px] py-[10px] pl-8 hover:scale-[1.1] duration-500  border-2 border-[#ff004f] rounded-md text-white font-bold text-lg hover:bg-[#ff004f] hover:text-white mr-2">
           <AiOutlineGithub color='#ababab' fontSize='20px' style={{position: 'absolute', left: '4px', top:'13px',}} className='IconContext'/>
           GitHub</button>
-        <button className="relative px-[20px] py-[10px] pl-8 border-2 border-[#ff004f] rounded-md text-white font-bold text-lg hover:bg-[#ff004f] hover:text-white ml-2">
+        </a>
+        <a href="#">
+        <button className="relative px-[20px] py-[10px] pl-8 hover:scale-[1.1] duration-500  border-2 border-[#ff004f] rounded-md text-white font-bold text-lg hover:bg-[#ff004f] hover:text-white ml-2">
         <FaPaperPlane color='#ababab' fontSize='15px' style={{position: 'absolute', left: '5px', top:'15px'}}/>
-          GitHub</button>
+          Contact</button>
+        </a>
       </div>
     </div>
   );
