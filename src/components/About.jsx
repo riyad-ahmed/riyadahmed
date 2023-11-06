@@ -22,7 +22,7 @@ function About() {
 
   const [active, setactive] = useState(true)
   return (   
-    <div className="container mx-auto" id="about">
+    <div className="container mx-auto">
       <div className="grid grid-cols-3 max-w-screen-xl mx-auto">
         <div>
           <img src="/public/IMG_20220108_102818_edit.jpg" alt="IMG_20220108_102818_edit.jpg" />
@@ -32,20 +32,14 @@ function About() {
           <h1 className="text-[60px] font-bold text-white">About <span className="text-[#ff004f]">Me</span></h1>
           <p className="text-[#ababab]">I bring expertise in web design and development since 2022, with a strong emphasis on crafting user-centric, visually appealing websites. Proficient in responsive design, SEO strategies, and optimizing website performance for an exceptional user experience</p>
             <Tabs className="mt-10">
-              <TabList className="mt--10 flex gap-32">
+              <TabList className="mt-10 flex gap-32">
                 {tabs.map(item=>{
                   return (
-                    <Tab key={item?.id} className={`new font-bold active:bg-[#ff004f] px-[10px] py-[5px] rounded-md   active:drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] text-white ${active? 'active': null}` } >
-                      Skills
-                    </Tab>
-
+                    <Tab onClick="mobileMenuOpen = true" type="button" className="inline-flex font-bold text-white items-center justify-center p-2 rounded-md hover:text-gray-500 hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] focus:outline-none focus:bg-[#ff004f] focus:text-white transition duration-150 ease-in-out" key={item?.id}>
+                  Skills
+                </Tab>
                   )
                 })}
-                
-                
-                {/* <Tab className="px-[10px] py-[5px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white">
-                Education
-                </Tab> */}
               </TabList>
               <TabPanel className="mt-6">
                 <p className="text-[#b54769] text-sm">Web Design:</p>
@@ -70,3 +64,5 @@ function About() {
 }
 
 export default About;
+
+// className={`new font-bold active:bg-[#ff004f] px-[10px] py-[5px] rounded-md active:drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] text-white ${active? 'active': null}` } 
