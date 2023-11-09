@@ -6,9 +6,9 @@ import {FaBootstrap} from "react-icons/Fa";
 import {BiLogoTailwindCss} from "react-icons/Bi";
 const Services = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-[10rem]" id="services">
-      <h1 className="text-[60px] text-center font-bold text-white">My <span className="text-[#ff004f]">Services</span></h1>
-      <div className="grid grid-cols-3 gap-12 mt-10">
+    <div className="max-w-screen-xl px-[10%] sm:px-[25px] lg:px-[15px] mx-auto mt-[10rem]" id="services">
+      <h1 className="md:text-[60px] text-[45px] text-center font-bold text-white">My <span className="text-[#ff004f]">Services</span></h1>
+      <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-12 mt-10">
         <div className="col-span-1 hover:translate-y-[-20px] duration-500">
           <div className="p-[40px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white hover:bg-[#080808] duration-500">
             <HiOutlineCode color='#fff' fontSize='60px'/>
