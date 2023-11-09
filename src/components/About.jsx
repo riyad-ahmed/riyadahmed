@@ -1,11 +1,14 @@
 import {Tabs, TabList, Tab, TabPanel} from "https://cdn.skypack.dev/react-tabs@3.2.2";
-// import React, { useState } from 'react'
+import React, { useState } from 'react'
 
 function About() {
+
+  const [activeTab, setActiveTab] = useState(null);
+
   const tabs = [
     {
-      name: "Skills", 
       id: 1,
+      name: "Skills", 
       active: false
     },
     {
@@ -20,53 +23,23 @@ function About() {
     }
   ]
 
-  
-
-  // const [active, setactive] = useState(true)
-
-
-
-  // function Tab(props){
-  
-  //   const [visibleTab, setVisibleTab] = React.useState(props.data[0].id)
-  
-  //   const listTitles = props.data.map((item) => 
-  //       <li onClick={() => setVisibleTab(item.id)} className={visibleTab === item.id ? "tab-title tab-title--active" : "tab-title"}>{item.tabTitle}</li>
-  //   )       
-                                     
-  //   const listContent = props.data.map((item) => 
-  //       <p style={visibleTab === item.id ? {} : {display: 'none'}}>{item.tabContent}</p>
-  //   )
-    
-  //   return(
-  //       <div className="tabs">
-  //         <ul className="tabs-titles">
-  //           {listTitles}
-  //         </ul>
-  //         <div className="tab-content">
-  //            {listContent}
-  //         </div>
-  //       </div>
-  //     )
-  // }
-
-
   return (   
     <div className="container mx-auto">
-      <div className="grid grid-cols-3 max-w-screen-xl mx-auto">
-        <div>
+      <div className="grid lg:grid-cols-3 grid-cols-1 max-w-screen-xl mx-auto">
+        <div className=" text-center">
           <img src="/public/IMG_20220108_102818_edit.jpg" alt="IMG_20220108_102818_edit.jpg" />
         </div>
         <div className="col-span-2">
           <div className="ml-16">
           <h1 className="text-[60px] font-bold text-white">About <span className="text-[#ff004f]">Me</span></h1>
           <p className="text-[#ababab]">I bring expertise in web design and development since 2022, with a strong emphasis on crafting user-centric, visually appealing websites. Proficient in responsive design, SEO strategies, and optimizing website performance for an exceptional user experience</p>
-            <Tabs className="mt-10">
+            <Tabs className="mt-10" id="tabs">
               <TabList className="mt-10 flex gap-32">
                 {tabs.map(item=>{
                   return (
-                    <Tab className="inline-flex font-bold text-white items-center justify-center p-2 rounded-md hover:text-gray-500 hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] focus:outline-none focus:bg-[#ff004f] focus:text-white
-                     transition duration-150 ease-in-out" key={item?.id}>
+                    <Tab className={`inline-flex font-bold text-white items-center justify-center p-2 rounded-md hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)]  focus:text-white
+                     transition cursor-pointer duration-150 ease-in-out ${activeTab === item.id ? 'bg-[#ff004f] ' : ''}`}  key={item?.id} onClick={() => setActiveTab(item.id)}>
+                      {item.label}
                   Skills
                 </Tab>
                   )
@@ -96,7 +69,3 @@ function About() {
 }
 
 export default About;
-
-// className={`new font-bold active:bg-[#ff004f] px-[10px] py-[5px] rounded-md active:drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] text-white ${active? 'active': null}` } 
-
-// onClick="mobileMenuOpen = true" type="button"

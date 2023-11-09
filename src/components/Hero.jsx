@@ -8,12 +8,12 @@ import { FaPaperPlane } from 'react-icons/Fa';
 
 const hero = () => {
   return (
-    <div className="container mx-auto text-center my-[190px]">
-      <h2 className="text-[30px] font-bold text-white">Hi There <span className="text-[#ff004f]">!!</span></h2>
-      <h1 className="text-6xl font-bold text-white leading-[6rem]">I&apos;m <span className="text-[#ff004f]">Riyad</span> <br />
+    <div className="container mx-auto text-center lg:my-[190px] my-[130px]">
+      <h2 className="2xl:text-[30px] xl:text-[26px] lg:text-[22px] md:text-[18px] text-[18px] font-bold text-white">Hi There <span className="text-[#ff004f]">!!</span></h2>
+      <h1 className="text-6xl 2xl:text-[60px] xl:text-[50px] lg:text-[45px] md:text-[40px] sm:text-[35px] text-[35px]  font-bold text-white xl:leading-[6rem] sm:leading-[60px]">I&apos;m <span className="text-[#ff004f]">Riyad</span> <br />
       I Am a <span className="text-[#ff004f]">Web Designer</span>
       </h1>
-      <p className="text-[#ababab] px-[302px] text-lg">I am an expert in HTML5, CSS3, JavaScript, SCSS, PSD to HTML, Figma to HTML with Responsive design, and Twitter Bootstrap. I have excellent development skills and I am proficient in Web Designing. I have incredible attention to detail and I enjoy new challenges.</p>
+      <p className="text-[#ababab] 2xl:px-[302px] lg:px-[200px] xl:text-lg text-[15px]">I am an expert in HTML5, CSS3, JavaScript, SCSS, PSD to HTML, Figma to HTML with Responsive design, and Twitter Bootstrap. I have excellent development skills and I am proficient in Web Designing. I have incredible attention to detail and I enjoy new challenges.</p>
 
       <div className="my-[30px] text-center">
         <div className="flex justify-center gap-4">
