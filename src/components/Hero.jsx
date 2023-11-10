@@ -1,4 +1,4 @@
-import { BsFacebook } from 'react-icons/Bs';
+
 import { AiOutlineGithub } from 'react-icons/Ai';
 import { AiOutlineTwitter } from 'react-icons/Ai';
 import { AiFillInstagram } from 'react-icons/Ai';
@@ -18,7 +18,7 @@ const hero = () => {
       <div className="my-[30px] text-center">
         <div className="flex justify-center gap-4">
           <i>
-          <a href="#" className=''><BsFacebook color='#ababab' fontSize='40px' hover='bg[#ff004f]'/></a>
+          <a href="#" className=''></a>
           </i>
           <i>
           <a href="#" className=''><AiOutlineTwitter color='#ababab' fontSize='40px'/></a>
