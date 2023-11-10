@@ -6,7 +6,5 @@ import tailwindcss from 'tailwindcss';
 export default defineConfig({
   base: './riyadahmed',
   plugins: [react(), tailwindcss()],
-  ssr: {
-    noExternal: ["react-icons"],
-  },
+
 })
