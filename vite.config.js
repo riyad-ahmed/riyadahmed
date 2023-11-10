@@ -5,5 +5,8 @@ import tailwindcss from 'tailwindcss';
 // https://vitejs.dev/config/
 export default defineConfig({
   base: './riyadahmed',
-  plugins: [react(), tailwindcss(),]
+  plugins: [react(), tailwindcss(),],
+  optimizeDeps: {
+    exclude: ['react-icons/Bs'],
+  },
 })
