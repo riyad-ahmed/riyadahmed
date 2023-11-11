@@ -1,6 +1,8 @@
 import {Tabs, TabList, Tab, TabPanel} from "https://cdn.skypack.dev/react-tabs@3.2.2";
 import { useState } from 'react'
 
+import myImage from '../assets/images/me.jpg';
+
 function About() {
 
   const [activeTab, setActiveTab] = useState(null);
@@ -27,7 +29,7 @@ function About() {
     <div className="container mx-auto">
       <div className="grid lg:grid-cols-3 grid-cols-1 max-w-screen-xl mx-auto">
         <div className="md:mx-0 mx-[15px]">
-          <img src="./public/IMG_20220108_102818_edit.jpg" alt="IMG_20220108_102818_edit.jpg" />
+          <img src={myImage} alt="me" />
         </div>
         <div className="col-span-2">
           <div className="lg:ml-16 ml-[15px]">
