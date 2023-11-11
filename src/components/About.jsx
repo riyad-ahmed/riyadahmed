@@ -27,7 +27,7 @@ function About() {
     <div className="container mx-auto">
       <div className="grid lg:grid-cols-3 grid-cols-1 max-w-screen-xl mx-auto">
         <div className="md:mx-0 mx-[15px]">
-          <img src="/public/IMG_20220108_102818_edit.jpg" alt="IMG_20220108_102818_edit.jpg" />
+          <img src="./public/IMG_20220108_102818_edit.jpg" alt="IMG_20220108_102818_edit.jpg" />
         </div>
         <div className="col-span-2">
           <div className="lg:ml-16 ml-[15px]">
