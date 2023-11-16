@@ -5,7 +5,7 @@ import myImage from '../assets/images/me.jpg';
 
 function About() {
 
-  const [activeTab, setActiveTab] = useState(null);
+  const [activeTab, setActiveTab] = useState(1);
 
   const tabs = [
     {
@@ -41,8 +41,8 @@ function About() {
                   return (
                     <Tab className={`inline-flex font-bold text-white items-center justify-center p-2 rounded-md hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)]  focus:text-white
                      transition cursor-pointer duration-150 ease-in-out ${activeTab === item.id ? 'bg-[#ff004f] ' : ''}`}  key={item?.id} onClick={() => setActiveTab(item.id)}>
-                      {item.label}
-                  Skills
+                      {item.name}
+                  
                 </Tab>
                   )
                 })}
