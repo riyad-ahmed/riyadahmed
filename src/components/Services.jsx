@@ -1,6 +1,10 @@
 
 import CodeIcon from '@mui/icons-material/Code';
 import CropIcon from '@mui/icons-material/Crop';
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import Figma from '../assets/images/figma.svg';
+import Bootstrap from '../assets/images/bootstrap.svg';
+import Tailwind from '../assets/images/tailwind-css.svg';
 
 
 
@@ -33,7 +37,9 @@ const Services = () => {
         </div>
         <div className="col-span-1 hover:translate-y-[-20px] duration-500 cursor-pointer">
           <div className="p-[40px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white hover:bg-[#080808] duration-500">
-            {/* <FaFigma color='#fff' fontSize='60px'/> */}
+            <i>
+              <img className='w-[60px] text-[#fff]' src={Figma} alt="figma.svg" />
+            </i>
             <h1 className="text-[30px] font-bold my-5">Figma to HTML</h1>
             <p className="text-[#ababab]">I am a seasoned web designer with a proven track record of crafting visually stunning and intuitive websites. My proficiency in HTML, CSS, and JavaScript allows me to create seamless user experiences. I look forward to the opportunity to contribute to your team&apos;s success.</p>
             <button className="px-[10px] py-[5px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white my-5">
@@ -43,7 +49,7 @@ const Services = () => {
         </div>
         <div className="col-span-1 hover:translate-y-[-20px] duration-500 cursor-pointer">
           <div className="p-[40px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white hover:bg-[#080808] duration-500">
-            {/* <BiLogoJavascript color='#fff' fontSize='60px'/> */}
+            <JavascriptIcon className='!text-[60px]'/>
             <h1 className="text-[30px] font-bold my-5">JavaScript</h1>
             <p className="text-[#ababab]">I am a seasoned web designer with a proven track record of crafting visually stunning and intuitive websites. My proficiency in HTML, CSS, and JavaScript allows me to create seamless user experiences. I look forward to the opportunity to contribute to your team&apos;s success.</p>
             <button className="px-[10px] py-[5px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white my-5">
@@ -53,7 +59,9 @@ const Services = () => {
         </div>
         <div className="col-span-1 hover:translate-y-[-20px] duration-500 cursor-pointer">
           <div className="p-[40px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white hover:bg-[#080808] duration-500">
-            {/* <FaBootstrap color='#fff' fontSize='60px'/> */}
+            <i>
+              <img className='!w-[60px]' src={Bootstrap} alt="Bootstrap" />
+            </i>
             <h1 className="text-[30px] font-bold my-5">Bootstrap</h1>
             <p className="text-[#ababab]">I am a seasoned web designer with a proven track record of crafting visually stunning and intuitive websites. My proficiency in HTML, CSS, and JavaScript allows me to create seamless user experiences. I look forward to the opportunity to contribute to your team&apos;s success.</p>
             <button className="px-[10px] py-[5px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white my-5">
@@ -62,8 +70,10 @@ const Services = () => {
           </div>
         </div>
         <div className="col-span-1 hover:translate-y-[-20px] duration-500 cursor-pointer">
-          <div className="p-[40px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white hover:bg-[#080808] duration-500">
-            {/* <BiLogoTailwindCss color='#fff' fontSize='60px'/> */}
+          <div className="p-[40px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white hover:bg-[#080808] duration-500"> 
+          <i> 
+            <img className='!w-[60px]' src={Tailwind} alt="tailwind" />           
+          </i>           
             <h1 className="text-[30px] font-bold my-5">Tailwind</h1>
             <p className="text-[#ababab]">I am a seasoned web designer with a proven track record of crafting visually stunning and intuitive websites. My proficiency in HTML, CSS, and JavaScript allows me to create seamless user experiences. I look forward to the opportunity to contribute to your team&apos;s success.</p>
             <button className="px-[10px] py-[5px] bg-[#262626] rounded-md drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white my-5">
