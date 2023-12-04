@@ -36,7 +36,7 @@ function About() {
           <h1 className="md:text-[60px] text-[45px] font-bold text-white">About <span className="text-[#ff004f]">Me</span></h1>
           <p className="text-[#ababab]">I bring expertise in web design and development since 2022, with a strong emphasis on crafting user-centric, visually appealing websites. Proficient in responsive design, SEO strategies, and optimizing website performance for an exceptional user experience</p>
             <Tabs className="mt-10" id="tabs">
-              <TabList className="mt-10 flex gap-32">
+              <TabList className="mt-10 flex gap-20 lg:gap-32">
                 {tabs.map(item=>{
                   return (
                     <Tab className={`inline-flex font-bold text-white items-center justify-center p-2 rounded-md hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)]  focus:text-white
@@ -51,7 +51,7 @@ function About() {
                 <p className="text-[#b54769] text-sm">Web Design:</p>
                 <h2 className="text-[#ababab]">HTML/HTML5, CSS/CSS3, Bootstrap, JavaScript, React, tailwind</h2>
                 <p className="text-[#b54769] text-sm">Programming:</p>
-                <h2 className="text-[#ababab]">JavaScript</h2>
+                <h2 className="text-[#ababab]">JavaScript,Reactjs</h2>
                 <p className="text-[#b54769] text-sm">Tools:</p>
                 <h2 className="text-[#ababab]">Git, GitHub</h2>
               </TabPanel>
