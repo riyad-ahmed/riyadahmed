@@ -60,7 +60,6 @@ function About() {
               </TabPanel>
               <TabPanel className="mt-6">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti vel nisi molestiae est quisquam optio saepe neque. Quibusdam maiores suscipit, optio obcaecati architecto perspiciatis nulla cum consequatur quas eos?
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quia alias adipisci vel neque, ea officiis est et ullam atque debitis eveniet repellendus magnam odio, ex aut laudantium nemo necessitatibus!
               </TabPanel>
             </Tabs>
           </div>
