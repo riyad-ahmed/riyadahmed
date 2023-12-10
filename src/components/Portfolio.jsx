@@ -1,3 +1,6 @@
+import biGamer from '../assets/images/bigamer.png';
+// import myImage from '../assets/images/me.jpg';
+
 const Portfolio = () => {
   return (
     <div className="max-w-screen-xl px-[10%] sm:px-[25px] lg:px-[15px] mx-auto my-[10rem]">
@@ -16,7 +19,8 @@ const Portfolio = () => {
         <div className="col-span-1 hover:translate-y-[-20px] duration-500 text-center cursor-pointer">
           <div className="p-[20px] bg-[#080808] rounded-md drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:drop-shadow-[0_0_8px_rgba(255,255,255,1)] hover:text-[#ff004f] text-white duration-500">
             
-            <img src="https://riyad-ahmed.github.io/Portfolio/image/coffee.PNG" alt="image/coffee.PNG" />
+            <img src={biGamer} alt="game"/>
+            {/* <img src={myImage} alt="me" /> */}
 
             <button className="px-[10px] py-[5px] bg-[#262626] rounded-md hover:drop-shadow-[0_0_8px_rgba(255,0,79,1)] hover:text-[#ff004f] text-white mt-4">
                 <a href="#" className="relative text-lg py-2 pl-3 pr-4 font-bold bg-transparent md:bg-transparent md:p-0" aria-current="page">Learn more</a>
