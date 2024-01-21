@@ -1,7 +1,7 @@
 import {Tabs, TabList, Tab, TabPanel} from "https://cdn.skypack.dev/react-tabs@3.2.2";
 import { useState } from 'react'
 
-import myImage from '../assets/images/me.jpg';
+import myImage from 'https://photos.google.com/photo/AF1QipPBE3b1i7LxiW5HhZyTBo7IqpTr1CKDuEsGfknm';
 
 function About() {
 
