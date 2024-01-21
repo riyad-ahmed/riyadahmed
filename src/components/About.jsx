@@ -1,7 +1,7 @@
 import {Tabs, TabList, Tab, TabPanel} from "https://cdn.skypack.dev/react-tabs@3.2.2";
 import { useState } from 'react'
 
-import myImage from 'https://photos.google.com/photo/AF1QipPBE3b1i7LxiW5HhZyTBo7IqpTr1CKDuEsGfknm';
+import myImage from '../assets/images/me2.jpg';
 
 function About() {
 
@@ -28,8 +28,8 @@ function About() {
   return (   
     <div className="container mx-auto">
       <div className="grid lg:grid-cols-3 grid-cols-1 max-w-screen-xl mx-auto">
-        <div className="md:mx-0 mx-[15px]">
-          <img src={myImage} alt="me" />
+        <div className="md:mx-0 mx-[15px] hover:scale-[1.1] duration-500">
+          <img className="rounded-md" src={myImage} alt="me" />
         </div>
         <div className="col-span-2">
           <div className="lg:ml-16 ml-[15px]">
